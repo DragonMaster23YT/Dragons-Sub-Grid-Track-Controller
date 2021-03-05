@@ -1,0 +1,25 @@
+﻿R e a d m e
+-----------
+
+Setup:
+	1. A single track should contain two sets of rotors each. One set on the right, one on the left.
+
+		If your track only uses one sets of rotors rather then two, the script will still work without any issues.
+
+
+	2. Group these rotors by their placement (i. e. left and right).
+		
+		Combinations: (Example, can be named in other ways)
+			Track name: "Left Track / Track A" or "Right Track / Track B"
+			Rotor name: "Rotors / Motors"
+			Direction / Placement Name: "Left / Right"
+
+			Example: "Track A - Rotors - Left"
+
+
+	3. Put the group name in their corresponding areas.
+		(Example: "Track A - Rotors - Left" rotor group goes into "string motorGroupLeftA =".)
+
+
+	4. Test for correct track response. If incorrect, tracks can be inverted.
+		(Here >> "bool invertA = false", set to true to invert)
